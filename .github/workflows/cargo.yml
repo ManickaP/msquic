@@ -39,7 +39,7 @@ jobs:
           static.rust-lang.org:443
           www.cloudflare.com:443
     - name: Checkout repository
-      uses: actions/checkout@629c2de402a417ea7690ca6ce3f33229e27606a5
+      uses: actions/checkout@e6d535c99c374d0c3f6d8cd8086a57b43c6c700a
     - name: Prepare Machine
       run: scripts/prepare-machine.ps1 -Tls openssl -ForBuild
       shell: pwsh

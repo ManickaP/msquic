@@ -19,7 +19,7 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: Checkout repository
-      uses: actions/checkout@629c2de402a417ea7690ca6ce3f33229e27606a5
+      uses: actions/checkout@e6d535c99c374d0c3f6d8cd8086a57b43c6c700a
       with:
         fetch-depth: 0
     - name: Sync mirror
